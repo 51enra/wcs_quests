@@ -1,0 +1,20 @@
+How do you declare and initialize an empty array of 4 integers called `tab`?
+What are the differences between float and double?
+What are the differences between char and Character?
+What is an instance?
+Where is the reference in `Human bruce = new Human("Bruce");`?
+Can an instance have multiple references?
+What does the protected access modifier mean?
+Where can I access a package-private class member?
+What is the purpose of the `final` keyword?
+What is the `static` keyword used for?
+What naming convention should I use for a constant?
+When should I write comments in Java code?
+What are the names of the roles defined by SCRUM?
+Simplify the following code: if (test == false) { test = true; } else { test = false; }
+In a Spring Boot project, what is a template?
+In a Spring Boot project, what is a controller?
+In a Spring Boot project, what is an entity?
+In a Spring Boot project, what is a repository?
+In a Spring Boot project, what is the purpose of the pom.xml file?
+Can you explain the Inversion of Control?

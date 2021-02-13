@@ -1,0 +1,60 @@
+1. How do you declare and initialize an empty array of 4 integers called `tab`?
+int [] tab = new int[4]
+
+2. What are the differences between float and double?
+double has a higher precision than float and allows larger exponents.
+
+3. What are the differences between char and Character?
+char is a primitive type representing a single character while Character is an object representing a single character.
+
+4. What is an instance?
+a variable of an object type. Instances are instanciated using the class definition as a template.
+
+5. Where is the reference in `Human bruce = new Human("Bruce");`?
+bruce contains the reference to an instance of an object belonging to the Human class.
+
+6. Can an instance have multiple references?
+yes, by setting var1=var2, both var1 and var2 will be references to the same instance.
+
+7. What does the protected access modifier mean?
+protected properties and methods are only visible by subclasses of the class implementing the properties and methods.
+
+8. Where can I access a package-private class member?
+from within the same package
+
+9. What is the purpose of the `final` keyword?
+Making a variable immutable
+
+10. What is the `static` keyword used for?
+static methods and properties belong to the class and not a single instance. As such, they are accessible even through the class name.
+
+11. What naming convention should I use for a constant?
+Capitalized snake case
+
+12. When should I write comments in Java code?
+When code is not self-explanatory
+
+13. What are the names of the roles defined by SCRUM?
+Scrum Master, Product Owner, Team Member
+
+14. Simplify the following code: if (test == false) { test = true; } else { test = false; }
+test ? false : true;
+
+15. In a Spring Boot project, what is a template?
+A template is a document in html code, usually containing elements to be processed by a templating language like thymeleaf.
+
+16. In a Spring Boot project, what is a controller?
+A controller is a part of the MVC paradigm which takes request from the views routed to the controller by the spring dispatcher, processes them and provides a response which is again routed through the spring dispatcher to the view.
+
+17. In a Spring Boot project, what is an entity?
+An entity is a Java object representing a database table.
+
+18. In a Spring Boot project, what is a repository?
+A repository is a Java interface that provides access to the database.
+
+19. In a Spring Boot project, what is the purpose of the pom.xml file?
+The pom.xml specifies the environment of the project, e.g by listing all its dependencies. It will be processed by Maven to download (if not available) and include the dependencies in the build path of the project.
+
+20. Can you explain the Inversion of Control?
+Inversion of control means that the control flow is handed over by the application to an encapsulating framework like Spring. The framework will decide at which time and triggered by which events different parts of the application should be called.
+
